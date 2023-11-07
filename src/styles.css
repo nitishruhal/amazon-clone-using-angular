@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+
+
+}
+a{
+    color: red;
+}
+
+
+.common-form {
+    text-align: center;
+    display: flex;
+    margin :auto;
+    flex-direction: column;
+    width:300px;
+}
+
+.form-input {
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+
+}
+
+.form-button {
+    height: 35px;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Header */
+    .nav-logo,
+    .nav-address,
+    .nav-search,
+    .div-signin,
+    .div-return,
+    .nav-cart {
+      display: none;
+    }
+  
+    .panel-all {
+      font-size: 14px;
+    }
+  
+    /* Content Section */
+    .box-content {
+      text-align: center;
+    }
+  
+    /* Footer */
+    .foot-panel2 ul {
+      margin-bottom: 20px;
+    }
+  
+    /* General Adjustments */
+    .hero-section,
+    .content-section {
+      padding: 20px;
+    }
+    
+    /* Adjustments for specific elements */
+    
+    /* Navbar */
+    .navbar {
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+  
+    /* Search Select */
+    .search-select {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    /* Search Input */
+    .search-input {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    /* Panel */
+    .panel {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    /* Panel All */
+    .panel-all {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  
+    /* Panel Option */
+    .panel-option {
+      display: none;
+    }
+  
+    /* Panel Deals */
+    .panel-deals {
+      display: none;
+    }
+  
+    /* Box Content */
+    .box-content {
+      padding: 20px;
+    }
+  
+    /* Footer */
+    .foot-panel1,
+    .foot-panel2,
+    .foot-panel3,
+    .foot-panel4 {
+      text-align: center;
+    }
+  
+    .foot-panel2 ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    /* Copywrite */
+    .copywrite {
+      margin-top: 20px;
+    }
+  }
